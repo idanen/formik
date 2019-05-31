@@ -149,7 +149,7 @@ const Basic = () => (
             onBlur={handleBlur}
             value={values.email}
           />
-          {errors.email && touched.email && errors.email}
+          {touched.email && errors.email}
           <input
             type="password"
             name="password"
